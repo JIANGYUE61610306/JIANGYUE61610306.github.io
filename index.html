@@ -41,6 +41,7 @@
             align-items: center;
             justify-content: center;
             margin: 40px 0;
+            text-align: justify;
         }
         .profile-section img {
             border-radius: 50%;
@@ -48,10 +49,12 @@
             height: 200px;
             object-fit: cover;
             margin-right: 20px; /* Spacing between image and text */
+            margin-left: 0; /* Align image to the left */
         }
-        .profile-section p {
-            text-align: left;
-            max-width: 600px; /* Limit the width of the text */
+        .profile-text {
+            max-width: 600px; /* Limit the width of the text block */
+            text-align: justify; /* Justify the text */
+            margin: 0 auto; /* Center the text block horizontally */
         }
         section {
             margin: 40px 0;
@@ -77,10 +80,12 @@
         <h1>Welcome to Jiang Yue's GitHub Homepage</h1>
     </header>
     
-    <!-- Profile Section with Flexbox -->
+    <!-- Profile Section with Image Left-Aligned and Text Centered -->
     <section class="profile-section">
         <img src="selifie.jpg" alt="Jiang Yue's Profile Picture">
-        <p>Hello! My name is Jiang Yue. I am currently a PhD student at Nanyang Technological University (NTU) under the Alibaba-NTU Joint Talent Programme supervised by Prof. Cong Gao. I received my Bachelor's degree from NTU and my Master's degree from the National University of Singapore (NUS). My research focuses on spatial-temporal data mining, artificial intelligence, and machine learning. I am interested in developing advanced machine learning models to tackle practical challenges such as spatio-temporal data analysis, spatio-temporal LLMs and foundation models, AI-driven decision-making, and the application of machine learning techniques in various domains.</p>
+        <div class="profile-text">
+            <p>Hello! My name is Jiang Yue. I am currently a PhD student at Nanyang Technological University (NTU) under the Alibaba-NTU Joint Talent Programme supervised by Prof. Cong Gao. I received my Bachelor's degree from NTU and my Master's degree from the National University of Singapore (NUS). My research focuses on spatial-temporal data mining, artificial intelligence, and machine learning. I am interested in developing advanced machine learning models to tackle practical challenges such as spatio-temporal data analysis, spatio-temporal LLMs and foundation models, AI-driven decision-making, and the application of machine learning techniques in various domains.</p>
+        </div>
     </section>
 
     <section>
@@ -104,7 +109,7 @@
                 <a href="https://arxiv.org/abs/2408.12133">[PDF]</a>
             </li>
             <li>
-                Shuai Liu, Xiucheng Li, Gao Cong, Yile Chen, <strong>Yue Jiang</strong> (2023). "Multivariate time-series imputation with disentangled temporal representations." <em>ICLR2023</em>. 
+                Yile Chen, Weiming Huang, Kaiqi Zhao, <strong>Yue Jiang</strong>, Gao Cong (2024). "Multivariate time-series imputation with disentangled temporal representations." <em>ICLR2023</em>. 
                 <a href="https://openreview.net/forum?id=rdjeCNUS6TG">[PDF]</a>
             </li>
             <li>
