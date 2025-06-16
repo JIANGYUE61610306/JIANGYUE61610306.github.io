@@ -29,6 +29,12 @@ Work experience
   * National University of Singapore
   * Duties included: data analysis
   * Supervisor: Professor Chu Junhong (currently at the University of Hong Kong)
+
+Publications
+=====
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 Skills
 ======
