@@ -11,54 +11,31 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Multimodal Story Understanding, School of Computing (CCDS), Nanyang Technological University, 2021-2025 (expected)
+* M.S. in Business Analytics, National University of Singapore, 2018-2020
+* B.S. in Mathematical Sciences, Nanyang Technological University, 2013-2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2021-2025: PhD Candidate 
+  * Alibaba DAMO, Singapore
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
+* 2020-2021: Data Analysis Trainee
+  * Visa Digital Pyment, Singapore
+  * Duties included: Data analysis supporting the Visa Cross-Border Team, covering Greater China and Asia Pacific.
   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-2020: Research Assistant
+  * National University of Singapore
+  * Duties included: data analysis
+  * Supervisor: Professor Chu Junhong (currently at the University of Hong Kong)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python (PyTorch, LLM inference, DL model training, Huggingface)
+* Mandarin, English
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 2022-2025: Academic and Publication Committee, Student Association of NTU CCDS. 
+* 2014: Vise President, Nanyang Shuttlecock Association
