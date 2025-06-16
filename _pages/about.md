@@ -17,7 +17,6 @@ I am deeply grateful to my advisor, Nanyang Assoc. Prof. Li Boyang ["Albert"](ht
 I hold a **B.Sc. in Mathematics** from NTU, and an **M.Sc. in Business Analytics** from NUS. As I approach graduation, I’m actively seeking full-time opportunities with companies and teams that are passionate about **AI**, **data**, and **LLMs**.
 
 In my free time, I enjoy hiking, traveling, and taking care of my cat.
-You can find some of my travel photos and cute cat pictures in the [Hobbies](portfolio.html) section of this homepage.
 
 📧 Email: jdsannchao@gmail.com
 📱 Weixin:  <img src="assets/WeChat.jpg" alt="WeChat" width="100" />
@@ -25,3 +24,4 @@ You can find some of my travel photos and cute cat pictures in the [Hobbies](por
 ---
 
 
+You can find some of my travel photos and cute cat pictures in the [Hobbies](portfolio.html) section of this homepage.
