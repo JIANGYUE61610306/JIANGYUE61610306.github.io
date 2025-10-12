@@ -7,18 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-## 👋 Hi, I'm Chao Qin
+## 👋 Hi, I'm Jiang Yue
+Hello! My name is Jiang Yue. I am currently a PhD student at Nanyang Technological University (NTU) under the Alibaba-NTU Joint Talent Programme supervised by Prof. Cong Gao. I received my Bachelor's degree from NTU and my Master's degree from the National University of Singapore (NUS). My research focuses on spatial-temporal data mining, artificial intelligence, and machine learning. I am interested in developing advanced machine learning models to tackle practical challenges such as spatio-temporal data analysis, spatio-temporal LLMs and foundation models, AI-driven decision-making, and the application of machine learning techniques in various domains.
 
-I recently completed my 4-year PhD at the College of Computing and Data Science [(CCDS)](https://www.ntu.edu.sg/computing/home), Nanyang Technological University (NTU).
-My research interests lie in **multimodal video understanding**, **natural language processing (NLP)**, and **large language model (LLM) applications**.
-
-I am deeply grateful to my advisor, Nanyang Assoc. Prof. Li Boyang ["Albert"](http://boyangli.org/), for his constant support and guidance during my PhD.
-
-I hold a **B.Sc. in Mathematics** from NTU, and an **M.Sc. in Business Analytics** from NUS. As I approach graduation, I’m actively seeking full-time opportunities with companies and teams that are passionate about **AI**, **data**, and **LLMs**.
-
-In my free time, I enjoy hiking, traveling, and taking care of my cat.
-
-📧 Email: jdsannchao@gmail.com
+📧 Email: yue013@e.ntu.edu.sg
 📱 Weixin:  <img src="assets/WeChat.jpg" alt="WeChat" width="100" />
 
 ---
