@@ -10,13 +10,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Chao Qin / Homepage"
+title                    : "Jiang Yue / Homepage"
 title_separator          : "-"
-name                     : &name "Chao Qin"
+name                     : &name "Jiang Yue"
 description              : &description "personal description"
-url                      : https://jdsannchao.github.io/ChaoQin.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://JIANGYUE61610306.github.io/JIANGYUE61610306.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jdsannchao/ChaoQin.github.io"
+repository               : "JIANGYUE61610306.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,22 +24,22 @@ repository               : "jdsannchao/ChaoQin.github.io"
 author:
   # Biographic information
   avatar           : "portfolio.jpg"
-  name             : "Chao Qin"
-  pronouns         : "she/her"  
+  name             : "Jiang Yue"
+  pronouns         : "He/His"  
   bio              : "AI — a love for life."
   location         : "Singapore(SPR)"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : "chao0009@e.ntu.edu.sg" 
+  email            : "yue013@e.ntu.edu.sg" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=4W9s4jMAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=lXC_ufAAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : #"https://orcid.org/0009-0002-3891-365X"
   semantic         : # URL
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
