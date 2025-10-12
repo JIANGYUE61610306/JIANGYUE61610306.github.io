@@ -1,239 +1,80 @@
+# =========================
+# Minimal Mistakes + AcademicPages 基础配置（可直接用）
+# =========================
+locale: "en-US"
 
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+# 主题（AcademicPages 基于 Minimal Mistakes）
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"   # 可选: air, aqua, contrast, dark, default, neon 等
 
-# Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Jiang Yue / Homepage"
-title_separator          : "-"
-name                     : &name "Jiang Yue"
-description              : &description "personal description"
-url                      : https://JIANGYUE61610306.github.io/JIANGYUE61610306.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "JIANGYUE61610306.github.io"
+# 站点信息
+title: "Jiang Yue / Homepage"
+name: "Jiang Yue"
+description: "Spatio-Temporal Deep Learning · Time Series · Urban Computing"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# 重要：用户主页域名（不要带仓库路径，也不要末尾斜杠）
+url: "https://jiangyue61610306.github.io"
+# 用户主页无子路径，保持空
+baseurl: ""
+
+# “用户名/仓库名” 格式
+repository: "JIANGYUE61610306/JIANGYUE61610306.github.io"
+
+# -------------------------
+# 作者信息（侧边栏/卡片）
+# -------------------------
 author:
-  # Biographic information
-  avatar           : "portfolio.jpg"
-  name             : "Jiang Yue"
-  pronouns         : "He/His"  
-  bio              : "AI — a love for life."
-  location         : "Singapore(SPR)"
-  employer         : #"Red Brick University"
-  uri              : # URL
-  email            : "yue013@e.ntu.edu.sg" 
+  avatar: "profile.jpg"   # 放在 /images/ 目录下
+  name: "Jiang Yue"
+  pronouns: "He/His"
+  bio: "AI — a love for life."
+  location: "Singapore (SPR)"
+  email: "yue013@e.ntu.edu.sg"
 
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=lXC_ufAAAAAJ&hl=en"
-  impactstory      : # URL
-  orcid            : #"https://orcid.org/0009-0002-3891-365X"
-  semantic         : # URL
-  pubmed           : # URL
-  researchgate     : # URL
-  scopus           : # URL
+  # 学术/外链
+  googlescholar: "https://scholar.google.com/citations?user=lXC_ufAAAAAJ&hl=en"
+  orcid: "https://orcid.org/0009-0002-3891-365X"
+  github: "JIANGYUE61610306"
 
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # 其他留空即可（留空不会显示）
+  linkedin:
+  twitter:
+  mastodon:
+  zhihu:
 
-  # Social media
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
-
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
-  preprints:
-    title: 'Arxiv Papers'
-
-# Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
-
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  google:
-    tracking_id          :
-
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-
-# These settings control the types of collections used by the template
+# -------------------------
+# 页面/集合
+# -------------------------
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /publications/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
   talks:
     output: true
-    permalink: /:collection/:path/
+    permalink: /talks/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
 
+# 分类名（按需）
+publication_category:
+  books:
+    title: "Books"
+  manuscripts:
+    title: "Journal Articles"
+  conferences:
+    title: "Conference Papers"
+  preprints:
+    title: "Arxiv Papers"
 
-# These settings control how pages and collections are included in the site
+# -------------------------
+# 页面默认参数（Minimal Mistakes）
+# -------------------------
 defaults:
-  # _posts
+  # 博文
   - scope:
       path: ""
       type: posts
@@ -241,118 +82,103 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-  # _pages
+  # 页面
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
+  # publications
   - scope:
       path: ""
       type: publications
     values:
       layout: single
       author_profile: true
+      comments: false
       share: true
-      comments: true
-  # _portfolio
+  # portfolio
   - scope:
       path: ""
       type: portfolio
     values:
       layout: single
       author_profile: true
+      comments: false
       share: true
-      comment: true
-  # _talks
+  # talks
   - scope:
       path: ""
       type: talks
     values:
       layout: talk
       author_profile: true
+      comments: false
       share: true
 
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+# -------------------------
+# 插件
+# -------------------------
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-gist
   - jemoji
+  - jekyll-include-cache
 
+# -------------------------
+# 站点其它设置
+# -------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+timezone: Etc/UTC
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# 导航（把这些页面加入顶栏；确保这些文件存在）
+# 例如：_pages/about.md, _pages/publications.md, _pages/cv.md
+header_pages:
+  - _pages/about.md
+  - _pages/publications.md
+  - _pages/cv.md
 
+# feed / seo 等
+atom_feed:
+  hide: false
 
-# HTML Compression
-# - http://jch.penibelst.de/
+# 读取/忽略
+include:
+  - _pages
+exclude:
+  - .github
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README
+  - tmp
+  - log
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# 可选：站点速度优化（Minimal Mistakes 推荐）
 compress_html:
   clippings: all
   ignore:
     envs: development
 
+# 社交分享/统计（可留空）
+analytics:
+  provider: "false"
+twitter:
+  username:
+facebook:
+  username:
