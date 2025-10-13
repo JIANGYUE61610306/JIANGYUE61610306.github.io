@@ -3,7 +3,7 @@ title: "FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting."
 collection: publications
 category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'In this study, we propose a framework named Few-shot Spatio-Temporal Large Language Models (FSTLLM), aimed at enhancing model robustness and predictive performance in few-shot time series forecasting. FSTLLM leverages the contextual knowledge embedded in Large Language Models (LLMs) to provide reasonable and accurate predictions. In addition, it supports the seamless integration of existing forecasting models to further boost their predicative capabilities.'
+excerpt: 'Yue Jiang, Yile Chen, Xiucheng Li, Qin Chao, Shuai Liu, Gao Cong.'
 date: 2025-07-13
 venue: 'ICML2025'
 paperurl: 'https://openreview.net/pdf?id=oyoiHf51es'
