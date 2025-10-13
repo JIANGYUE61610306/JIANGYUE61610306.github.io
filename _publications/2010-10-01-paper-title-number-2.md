@@ -1,13 +1,12 @@
 ---
-title: "Two Causally Related Needles in a Video Haystack"
+title: " UrbanLLM: Autonomous Urban Activity Planning and Management with Large Language Models."
 collection: publications
-category: preprints
+category: conferences
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'Built a long video understanding dataset with LLM-agent integration; exposed key flaws in popular open datasets and enabled stronger benchmarks—co-led with Miaoyu (equal contribution).'
-date: 2025-05-26
-venue: 'Arxiv'
-paperurl: 'https://arxiv.org/pdf/2505.19853?'
+excerpt: 'UrbanLLM is a fine-tuned large language model that autonomously decomposes complex urban planning or management queries into spatio-temporal sub-tasks, selects suitable specialized models, and synthesizes their outputs into coherent solutions.'
+date: 2024-11-12
+venue: 'EMNLP'
+paperurl: 'https://aclanthology.org/2024.findings-emnlp.98.pdf'
 
 ---
-citation: 'Li, M., Chao, Q., & Li, B. (2025). &quot;Two Causally Related Needles in a Video Haystack. &quot; <i>arXiv preprint arXiv:2505.19853</i>.'
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Location-based services play a critical role in improving the quality of our daily lives. Despite the proliferation of numerous specialized AI models within spatio-temporal context of location-based services, these models struggle to autonomously tackle problems regarding complex urban planing and management. To bridge this gap, we introduce UrbanLLM, a fine-tuned large language model (LLM) designed to tackle diverse problems in urban scenarios. UrbanLLM functions as a problemsolver by decomposing urban-related queries into manageable sub-tasks, identifying suitable spatio-temporal AI models for each sub-task, and generating comprehensive responses to the given queries.
