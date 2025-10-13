@@ -16,5 +16,3 @@ Hello! My name is Jiang Yue. I am currently a PhD student at Nanyang Technologic
 ---
 
 
-## CV
-{% include cv-full.md %}
