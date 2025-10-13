@@ -1,5 +1,5 @@
 ---
-title: "STLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting."
+title: "FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting."
 collection: publications
 category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
