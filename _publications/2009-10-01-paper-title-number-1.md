@@ -3,7 +3,7 @@ title: "STLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting."
 collection: publications
 category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'Designed a no-human-label training framework that outperforms few-shot methods on both classification and reasoning tasks—joint work with Alibaba Damo, equal contribution with Chaoqun.'
+excerpt: 'In this study, we propose a framework named Few-shot Spatio-Temporal Large Language Models (FSTLLM), aimed at enhancing model robustness and predictive performance in few-shot time series forecasting. FSTLLM leverages the contextual knowledge embedded in Large Language Models (LLMs) to provide reasonable and accurate predictions. In addition, it supports the seamless integration of existing forecasting models to further boost their predicative capabilities.'
 date: 2025-07-13
 venue: 'ICML2025'
 paperurl: 'https://openreview.net/pdf?id=oyoiHf51es'
