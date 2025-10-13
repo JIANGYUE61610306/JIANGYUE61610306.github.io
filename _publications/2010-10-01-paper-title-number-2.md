@@ -3,7 +3,7 @@ title: " UrbanLLM: Autonomous Urban Activity Planning and Management with Large 
 collection: publications
 category: conferences
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'UrbanLLM is a fine-tuned large language model that autonomously decomposes complex urban planning or management queries into spatio-temporal sub-tasks, selects suitable specialized models, and synthesizes their outputs into coherent solutions.'
+excerpt: 'Yue Jiang, Qin Chao, Yile Chen, Xiucheng Li, Shuai Liu, Gao Cong.'
 date: 2024-11-12
 venue: 'EMNLP'
 paperurl: 'https://aclanthology.org/2024.findings-emnlp.98.pdf'
