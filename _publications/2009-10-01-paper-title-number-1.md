@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Yue Jiang, Yile Chen, Xiucheng Li, Qin Chao, Shuai Liu, Gao Cong.'
 date: 2025-07-13
-venue: 'ICML2025'
+venue: 'ICML'
 paperurl: 'https://openreview.net/pdf?id=oyoiHf51es'
 
 ---
