@@ -47,17 +47,21 @@ Work experience
   - Additive manufacturing for high-precision engineering; metallic 3D printing for bone replacement applications.
 
 Publications
-=====
+======
 <ul>
 {% for post in site.publications reversed %}
-  <li style="margin-bottom: 10px;">
-    <b><a href="{{ post.paperurl }}">{{ post.title }}</a></b>
+  <li style="margin-bottom: 15px;">
+    {% if post.paperurl %}
+      <b><a href="{{ post.paperurl }}" style="text-decoration:none;">{{ post.title }}</a></b>
+    {% else %}
+      <b>{{ post.title }}</b>
+    {% endif %}
     <br>
     
     <span style="font-size: 0.95em;">{{ post.excerpt }}</span>
     <br>
     
-    <i style="color: #555;">{{ post.venue }}</i>
+    <i style="color: #666;">{{ post.venue }}, {{ post.date | date: "%Y" }}</i>
   </li>
 {% endfor %}
 </ul>
