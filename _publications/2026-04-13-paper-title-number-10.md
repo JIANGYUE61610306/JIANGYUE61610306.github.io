@@ -2,7 +2,7 @@
 title: "Cross-city Time Series Forecasting with Retrieval-Augmented Large Language Models."
 collection: publications
 category: conferences
-permalink: /publication/2025-09-11-paper-title-number-10
+permalink: /publication/2026-04-13-paper-title-number-10
 excerpt: 'Yue Jiang, Chenxi Liu, Yile Chen, Qin Chao, Shuai Liu, Long Cheng, Gao Cong.'
 date: 2026-04-13
 venue: 'The Web Conference (WWW2026) '
