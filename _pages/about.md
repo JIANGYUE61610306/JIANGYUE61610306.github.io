@@ -48,9 +48,19 @@ Work experience
 
 Publications
 =====
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  <li style="margin-bottom: 10px;">
+    <b><a href="{{ post.paperurl }}">{{ post.title }}</a></b>
+    <br>
+    
+    <span style="font-size: 0.95em;">{{ post.excerpt }}</span>
+    <br>
+    
+    <i style="color: #555;">{{ post.venue }}</i>
+  </li>
+{% endfor %}
+</ul>
 
 Skills
 ======
