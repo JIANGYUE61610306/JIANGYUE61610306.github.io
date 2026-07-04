@@ -75,6 +75,6 @@ Skills
 
 Service
 ======
-* **Reviewer**: TKDE 2024–2025, KDD 2025, EMNLP 2024  
-* **External Reviewer**: NeurIPS 2025, SIGSPATIAL 2025, VLDB 2023, CIKM 2023/2025
+* **Program Committee Member**: TKDE 2024–2026, KDD 2025–2026, ICML 2026, EMNLP 2024, TDSC 2026, Information Fusion 2026, NIPS 2026, SIGSPATIAL 2026
+* **Secondary Program Committee Member Reviewer**: NeurIPS 2025, SIGSPATIAL 2025, VLDB 2023, CIKM 2023/2025
 
