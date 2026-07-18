@@ -75,6 +75,6 @@ Skills
 
 Service
 ======
-* **Program Committee Member**: TKDE 2024–2026, KDD 2025–2027, ICML 2026, EMNLP 2024, TDSC 2026, Information Fusion 2026, NIPS 2026, SIGSPATIAL 2026
+* **Program Committee Member**: TKDE 2024–2026, KDD 2025–2027, ICML 2026, EMNLP 2024, TDSC 2026, Information Fusion 2026, NIPS 2026, SIGSPATIAL 2026, AAAI 2027
 * **Secondary Program Committee Member Reviewer**: NeurIPS 2025, SIGSPATIAL 2025, VLDB 2023, CIKM 2023/2025
 
